@@ -175,7 +175,7 @@ if __name__ == "__main__":
 
     # valores corrigidos com o certificado de calibracao
     temperature = round((coeff_temp['a']*float(data_array[1]) + coeff_temp['b']),1)
-    humidity = round((coeff_temp['a']*float(data_array[0]) + coeff_temp['b']),1)
+    humidity = round((coeff_umid['a']*float(data_array[0]) + coeff_umid['b']),1)
 
     # data e hora
     data_atual = data_hora();
